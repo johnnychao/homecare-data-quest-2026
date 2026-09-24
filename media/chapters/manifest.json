@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "chapters": [
+    {
+      "id": 1,
+      "title": "第一關：先看見，再判斷",
+      "file": "chapter-1.mp4",
+      "status": "ready",
+      "durationSeconds": 8.0,
+      "sha256": "d2d3fdb887f3899969e156040c07439bdc0eae7450af37b9c86dc0f0845d68fc",
+      "source": "Google Flow",
+      "audioDescription": "後製配樂：JRPG Piano（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+    },
+    {
+      "id": 2,
+      "title": "第二關：讓紀錄有共同語言",
+      "file": "chapter-2.mp4",
+      "status": "ready",
+      "durationSeconds": 8.0,
+      "sha256": "1a1c60caefb25e96b8dd24029b51d02905fecc8540b12b14a118b19da379cf65",
+      "source": "Google Flow",
+      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+    },
+    {
+      "id": 3,
+      "title": "第三關：把資料整理成可信證據",
+      "file": "chapter-3.mp4",
+      "status": "ready",
+      "durationSeconds": 8.0,
+      "sha256": "6598a930b0988778634706aa7351b359f0a1ae7a56495d424ed555fa495e381e",
+      "source": "Google Flow",
+      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+    },
+    {
+      "id": 4,
+      "title": "第四關：Power BI 讀圖與督導儀表板",
+      "file": "chapter-4.mp4",
+      "status": "ready",
+      "durationSeconds": 8.0,
+      "sha256": "c9f4d5b12566c3305e252b46bc36d9ebb7f94dc0d1dd13812b3b1340ce19f20d",
+      "source": "Google Flow",
+      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+    },
+    {
+      "id": 5,
+      "title": "第五關：讓 AI 起草，讓證據把關",
+      "file": "chapter-5.mp4",
+      "status": "ready",
+      "durationSeconds": 8.0,
+      "sha256": "b4b005a6999b5747dbf9e54bbd4651e45f8d4276f2af4db923b909602cf03c57",
+      "source": "Google Flow",
+      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+    },
+    {
+      "id": 6,
+      "title": "第六關：讓改善有下一次回訪",
+      "file": "chapter-6.mp4",
+      "status": "ready",
+      "durationSeconds": 8.0,
+      "sha256": "3c480f09a2352145010fd2bc97112b96d2b475718194ce30eac6ff4e34b8ec86",
+      "source": "Google Flow",
+      "audioDescription": "後製配樂：JRPG Piano（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+    }
+  ]
+}

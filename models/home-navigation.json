@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "scene": "home",
+  "coordinateSystem": "glTF Y-up, world X/Z",
+  "forwardAxis": "+Z",
+  "actorRadius": 0.44,
+  "actorFootOffset": 0.008,
+  "floorY": 0.0225,
+  "groundRegions": [
+    {
+      "id": "rug",
+      "minX": -2.375,
+      "maxX": 1.0750000476837158,
+      "minZ": -1.149999976158142,
+      "maxZ": 1.5500000715255737,
+      "y": 0.05900000035762787
+    }
+  ],
+  "walkCycleSeconds": 0.8,
+  "nominalWalkSpeed": 0.85,
+  "bounds": {
+    "minX": -3.92,
+    "maxX": 4.0,
+    "minZ": -2.855,
+    "maxZ": 3.0
+  },
+  "obstacles": [
+    {
+      "id": "table_1",
+      "minX": -2.025,
+      "maxX": -0.575,
+      "minZ": -0.31,
+      "maxZ": 0.41
+    },
+    {
+      "id": "sofa",
+      "minX": -3.035,
+      "maxX": -0.2595,
+      "minZ": -2.08,
+      "maxZ": -0.94
+    },
+    {
+      "id": "entry_cabinet",
+      "minX": 3.05,
+      "maxX": 3.85,
+      "minZ": -0.275,
+      "maxZ": 1.275
+    },
+    {
+      "id": "bookcase",
+      "minX": -3.78,
+      "maxX": -2.7,
+      "minZ": -2.75,
+      "maxZ": -1.96
+    },
+    {
+      "id": "wicker_basket",
+      "minX": -3.15,
+      "maxX": -2.65,
+      "minZ": -0.265,
+      "maxZ": 0.1275
+    },
+    {
+      "id": "reading_lamp",
+      "minX": -0.37,
+      "maxX": 0.33,
+      "minZ": -2.55,
+      "maxZ": -1.85
+    },
+    {
+      "id": "floor_planter_2",
+      "minX": -3.4825,
+      "maxX": -2.9575,
+      "minZ": 1.7175,
+      "maxZ": 2.2425
+    },
+    {
+      "id": "floor_planter_3",
+      "minX": 1.5705,
+      "maxX": 1.9695,
+      "minZ": -2.5395,
+      "maxZ": -2.1405
+    }
+  ],
+  "spawnPoints": {
+    "lin": {
+      "x": -0.05,
+      "y": 0.051,
+      "z": 0.65,
+      "yaw": -0.85
+    },
+    "azhe": {
+      "x": 0.92,
+      "y": 0.0145,
+      "z": -1.37,
+      "yaw": -0.4
+    },
+    "chen": {
+      "x": -2.5,
+      "y": 0.0145,
+      "z": 0.85,
+      "yaw": 0.85
+    },
+    "xiaoyun": {
+      "x": 1.72,
+      "y": 0.0145,
+      "z": -0.56,
+      "yaw": -0.55
+    }
+  }
+}

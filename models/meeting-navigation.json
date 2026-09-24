@@ -1,0 +1,111 @@
+{
+  "version": 2,
+  "scene": "meeting",
+  "coordinateSystem": "glTF Y-up, world X/Z",
+  "forwardAxis": "+Z",
+  "actorRadius": 0.44,
+  "actorFootOffset": 0.008,
+  "floorY": 0.0195,
+  "groundRegions": [
+    {
+      "id": "rug",
+      "minX": -2.75,
+      "maxX": 2.75,
+      "minZ": -1.850000023841858,
+      "maxZ": 1.850000023841858,
+      "y": 0.054999999701976776
+    }
+  ],
+  "walkCycleSeconds": 0.8,
+  "nominalWalkSpeed": 0.85,
+  "bounds": {
+    "minX": -3.92,
+    "maxX": 4.0,
+    "minZ": -2.855,
+    "maxZ": 3.0
+  },
+  "obstacles": [
+    {
+      "id": "table_1",
+      "minX": -1.7,
+      "maxX": 1.1,
+      "minZ": -0.71,
+      "maxZ": 0.51
+    },
+    {
+      "id": "chair_1",
+      "minX": -1.4,
+      "maxX": -0.9,
+      "minZ": -1.35,
+      "maxZ": -0.84
+    },
+    {
+      "id": "chair_2",
+      "minX": -1.4,
+      "maxX": -0.9,
+      "minZ": 0.72,
+      "maxZ": 1.23
+    },
+    {
+      "id": "chair_3",
+      "minX": 0.3,
+      "maxX": 0.8,
+      "minZ": -1.35,
+      "maxZ": -0.84
+    },
+    {
+      "id": "chair_4",
+      "minX": 0.3,
+      "maxX": 0.8,
+      "minZ": 0.72,
+      "maxZ": 1.23
+    },
+    {
+      "id": "followup_easel",
+      "minX": 2.545,
+      "maxX": 3.595,
+      "minZ": -1.753,
+      "maxZ": -1.53
+    },
+    {
+      "id": "floor_planter_1",
+      "minX": -3.4635,
+      "maxX": -2.8965,
+      "minZ": 1.6065,
+      "maxZ": 2.1735
+    },
+    {
+      "id": "floor_planter_2",
+      "minX": 3.2585,
+      "maxX": 3.7415,
+      "minZ": 1.0585,
+      "maxZ": 1.5415
+    }
+  ],
+  "spawnPoints": {
+    "lin": {
+      "x": -2.37,
+      "y": 0.047,
+      "z": -0.5,
+      "yaw": 1.1
+    },
+    "azhe": {
+      "x": 1.76,
+      "y": 0.047,
+      "z": -0.76,
+      "yaw": -0.9
+    },
+    "chen": {
+      "x": -1.32,
+      "y": 0.047,
+      "z": 1.69,
+      "yaw": 2.25
+    },
+    "xiaoyun": {
+      "x": 0.62,
+      "y": 0.047,
+      "z": 1.7,
+      "yaw": -2.2
+    }
+  }
+}

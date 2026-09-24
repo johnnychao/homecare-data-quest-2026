@@ -1,0 +1,104 @@
+{
+  "version": 2,
+  "scene": "office",
+  "coordinateSystem": "glTF Y-up, world X/Z",
+  "forwardAxis": "+Z",
+  "actorRadius": 0.44,
+  "actorFootOffset": 0.008,
+  "floorY": 0.0195,
+  "groundRegions": [
+    {
+      "id": "rug",
+      "minX": -2.75,
+      "maxX": 2.75,
+      "minZ": -1.7999999523162842,
+      "maxZ": 1.7999999523162842,
+      "y": 0.054999999701976776
+    }
+  ],
+  "walkCycleSeconds": 0.8,
+  "nominalWalkSpeed": 0.85,
+  "bounds": {
+    "minX": -3.92,
+    "maxX": 4.0,
+    "minZ": -2.855,
+    "maxZ": 3.0
+  },
+  "obstacles": [
+    {
+      "id": "table_1",
+      "minX": -3.1,
+      "maxX": -0.9,
+      "minZ": -1.375,
+      "maxZ": -0.425
+    },
+    {
+      "id": "table_2",
+      "minX": 0.0,
+      "maxX": 2.2,
+      "minZ": -1.375,
+      "maxZ": -0.425
+    },
+    {
+      "id": "chair_1",
+      "minX": -2.25,
+      "maxX": -1.75,
+      "minZ": -2.11,
+      "maxZ": -1.6
+    },
+    {
+      "id": "chair_2",
+      "minX": 0.85,
+      "maxX": 1.35,
+      "minZ": -2.11,
+      "maxZ": -1.6
+    },
+    {
+      "id": "records_cabinet",
+      "minX": -3.275,
+      "maxX": -0.925,
+      "minZ": -2.84,
+      "maxZ": -2.24
+    },
+    {
+      "id": "floor_planter_1",
+      "minX": -3.592,
+      "maxX": -3.088,
+      "minZ": 1.548,
+      "maxZ": 2.052
+    },
+    {
+      "id": "floor_planter_2",
+      "minX": 3.1085,
+      "maxX": 3.5915,
+      "minZ": -2.4415,
+      "maxZ": -1.9585
+    }
+  ],
+  "spawnPoints": {
+    "lin": {
+      "x": -1.0,
+      "y": 0.047,
+      "z": 0.53,
+      "yaw": 0.85
+    },
+    "azhe": {
+      "x": 1.0,
+      "y": 0.047,
+      "z": 0.72,
+      "yaw": -0.75
+    },
+    "chen": {
+      "x": -2.65,
+      "y": 0.047,
+      "z": 0.92,
+      "yaw": 0.5
+    },
+    "xiaoyun": {
+      "x": 2.75,
+      "y": 0.047,
+      "z": 0.49,
+      "yaw": -0.7
+    }
+  }
+}

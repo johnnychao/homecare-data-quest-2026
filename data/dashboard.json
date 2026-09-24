@@ -1,0 +1,2817 @@
+{
+  "schemaVersion": 1,
+  "meta": {
+    "synthetic": true,
+    "label": "四週六個案合成教學資料；非真實個案、機構績效或評鑑證據",
+    "period": {
+      "start": "2026-09-01",
+      "end": "2026-09-28",
+      "asOf": "2026-09-28"
+    },
+    "weekDefinition": "從09/01起每7日分組，非ISO週；事件用ScheduledDate，追蹤用DueDate；asOf固定09/28。",
+    "metricDefinitions": {
+      "completion": "截至09/28已完成事件 / 所選原定日期事件；取消與改期保留原EventID分母。",
+      "documentation": "所選未完成事件中至少一筆完整觀察的事件數 / 所選未完成事件數；非回報列數。",
+      "followup": "所選到期日且截至09/28到期任務中的準時完成數 / 到期任務數；聯繫完成不等於問題解決。"
+    },
+    "zeroDenominator": "value=null，顯示不適用；不可顯示0%",
+    "asOfLimit": "固定09/28快照，不支援任意歷史截至日重建；所有觀察均已在該日以前記錄。",
+    "sourceFiles": {
+      "cases": {
+        "file": "cases.csv",
+        "sha256": "e71fa1d1bb7bedb5cdde0e94507d4c2f6e2b1b9f2a8addeaf4fc6cdd8d6ab172"
+      },
+      "events": {
+        "file": "events.csv",
+        "sha256": "819cd1fcb668bd07035fb9c5359eb5b85a192aaeaf0c8b88115c2ff17c7de978"
+      },
+      "reports": {
+        "file": "observations.csv",
+        "sha256": "1838aeb86cd7e67c52a058f1803abca4ed45290b8ef9749121aa977d8a41daa8"
+      },
+      "followups": {
+        "file": "followups.csv",
+        "sha256": "98ec583bb30e723889d5454eb1bf7e88bd852bb048bf3e0845468bcf639938d6"
+      }
+    }
+  },
+  "weeks": [
+    {
+      "id": "W1",
+      "label": "第1週 09/01–09/07",
+      "start": "2026-09-01",
+      "end": "2026-09-07"
+    },
+    {
+      "id": "W2",
+      "label": "第2週 09/08–09/14",
+      "start": "2026-09-08",
+      "end": "2026-09-14"
+    },
+    {
+      "id": "W3",
+      "label": "第3週 09/15–09/21",
+      "start": "2026-09-15",
+      "end": "2026-09-21"
+    },
+    {
+      "id": "W4",
+      "label": "第4週 09/22–09/28",
+      "start": "2026-09-22",
+      "end": "2026-09-28"
+    }
+  ],
+  "cases": [
+    {
+      "CaseID": "C001",
+      "DisplayName": "陳阿姨",
+      "Preference": "希望先說明服務步驟並徵詢意願",
+      "PreferenceConfirmedOn": "2026-09-01",
+      "PreferenceSource": "本人訪談-001",
+      "Synthetic": "1"
+    },
+    {
+      "CaseID": "C002",
+      "DisplayName": "王伯伯",
+      "Preference": "希望先說明服務步驟並徵詢意願",
+      "PreferenceConfirmedOn": "2026-09-01",
+      "PreferenceSource": "本人訪談-002",
+      "Synthetic": "1"
+    },
+    {
+      "CaseID": "C003",
+      "DisplayName": "李阿姨",
+      "Preference": "希望先說明服務步驟並徵詢意願",
+      "PreferenceConfirmedOn": "2026-09-01",
+      "PreferenceSource": "本人訪談-003",
+      "Synthetic": "1"
+    },
+    {
+      "CaseID": "C004",
+      "DisplayName": "黃伯伯",
+      "Preference": "希望先說明服務步驟並徵詢意願",
+      "PreferenceConfirmedOn": "2026-09-01",
+      "PreferenceSource": "本人訪談-004",
+      "Synthetic": "1"
+    },
+    {
+      "CaseID": "C005",
+      "DisplayName": "吳阿姨",
+      "Preference": "希望先說明服務步驟並徵詢意願",
+      "PreferenceConfirmedOn": "2026-09-01",
+      "PreferenceSource": "本人訪談-005",
+      "Synthetic": "1"
+    },
+    {
+      "CaseID": "C006",
+      "DisplayName": "林伯伯",
+      "Preference": "希望先說明服務步驟並徵詢意願",
+      "PreferenceConfirmedOn": "2026-09-01",
+      "PreferenceSource": "本人訪談-006",
+      "Synthetic": "1"
+    }
+  ],
+  "events": [
+    {
+      "EventID": "E00101",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-01",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-01",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00102",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-04",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "本人暫不接受",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00103",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-08",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-08",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00104",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-11",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "原因待查",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00105",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-15",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-15",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00106",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-18",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-18",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00107",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-22",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "原因待查",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00108",
+      "CaseID": "C001",
+      "ScheduledDate": "2026-09-25",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-25",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00201",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-01",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-01",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00202",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-04",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-04",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00203",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-08",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-08",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00204",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-11",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "家屬取消",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00205",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-15",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-15",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00206",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-18",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-18",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00207",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-22",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-22",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00208",
+      "CaseID": "C002",
+      "ScheduledDate": "2026-09-25",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-25",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00301",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-01",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-01",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00302",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-04",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "原因待查",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00303",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-08",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-08",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00304",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-11",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-11",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00305",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-15",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-15",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00306",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-18",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "改期未完成",
+      "ActualDate": "",
+      "RescheduledDate": "2026-09-29",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00307",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-22",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-22",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00308",
+      "CaseID": "C003",
+      "ScheduledDate": "2026-09-25",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-25",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00401",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-01",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-01",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00402",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-04",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-04",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00403",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-08",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-08",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00404",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-11",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-11",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00405",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-15",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-15",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00406",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-18",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-18",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00407",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-22",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-22",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00408",
+      "CaseID": "C004",
+      "ScheduledDate": "2026-09-25",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-25",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00501",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-01",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "原因待查",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00502",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-04",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-04",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00503",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-08",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-08",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00504",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-11",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-11",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00505",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-15",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-15",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00506",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-18",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-18",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00507",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-22",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "原因待查",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00508",
+      "CaseID": "C005",
+      "ScheduledDate": "2026-09-25",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-25",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00601",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-01",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-01",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00602",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-04",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-04",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00603",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-08",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-08",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00604",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-11",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-11",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00605",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-15",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-15",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00606",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-18",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-18",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00607",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-22",
+      "Service": "沐浴協助",
+      "Status": "已完成",
+      "Reason": "已完成",
+      "ActualDate": "2026-09-22",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    },
+    {
+      "EventID": "E00608",
+      "CaseID": "C006",
+      "ScheduledDate": "2026-09-25",
+      "Service": "沐浴協助",
+      "Status": "未完成",
+      "Reason": "原因待查",
+      "ActualDate": "",
+      "RescheduledDate": "",
+      "Note": "保留原事件，不刪除取消或改期的排定紀錄",
+      "Synthetic": "1"
+    }
+  ],
+  "reports": [
+    {
+      "ObservationID": "O00101",
+      "EventID": "E00101",
+      "ObservedAt": "2026-09-01 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-01 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00102",
+      "EventID": "E00102",
+      "ObservedAt": "2026-09-04 10:00",
+      "Fact": "陳阿姨表示今天暫時不想沐浴，服務未完成。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人暫不接受",
+      "RecordedAt": "2026-09-04 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00103",
+      "EventID": "E00103",
+      "ObservedAt": "2026-09-08 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-08 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00104",
+      "EventID": "E00104",
+      "ObservedAt": "2026-09-11 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-11 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00105",
+      "EventID": "E00105",
+      "ObservedAt": "2026-09-15 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-15 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00106",
+      "EventID": "E00106",
+      "ObservedAt": "2026-09-18 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-18 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00107",
+      "EventID": "E00107",
+      "ObservedAt": "2026-09-22 10:00",
+      "Fact": "",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-22 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00108",
+      "EventID": "E00108",
+      "ObservedAt": "2026-09-25 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-25 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00201",
+      "EventID": "E00201",
+      "ObservedAt": "2026-09-01 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-01 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00202",
+      "EventID": "E00202",
+      "ObservedAt": "2026-09-04 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-04 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00203",
+      "EventID": "E00203",
+      "ObservedAt": "2026-09-08 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-08 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00204",
+      "EventID": "E00204",
+      "ObservedAt": "2026-09-11 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-11 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00205",
+      "EventID": "E00205",
+      "ObservedAt": "2026-09-15 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-15 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00206",
+      "EventID": "E00206",
+      "ObservedAt": "2026-09-18 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-18 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00207",
+      "EventID": "E00207",
+      "ObservedAt": "2026-09-22 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-22 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00208",
+      "EventID": "E00208",
+      "ObservedAt": "2026-09-25 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-25 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00301",
+      "EventID": "E00301",
+      "ObservedAt": "2026-09-01 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-01 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00302",
+      "EventID": "E00302",
+      "ObservedAt": "2026-09-04 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-04 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00303",
+      "EventID": "E00303",
+      "ObservedAt": "2026-09-08 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-08 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00304",
+      "EventID": "E00304",
+      "ObservedAt": "2026-09-11 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-11 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00305",
+      "EventID": "E00305",
+      "ObservedAt": "2026-09-15 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-15 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00306",
+      "EventID": "E00306",
+      "ObservedAt": "2026-09-18 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-18 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00307",
+      "EventID": "E00307",
+      "ObservedAt": "2026-09-22 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-22 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00308",
+      "EventID": "E00308",
+      "ObservedAt": "2026-09-25 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-25 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00401",
+      "EventID": "E00401",
+      "ObservedAt": "2026-09-01 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-01 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00402",
+      "EventID": "E00402",
+      "ObservedAt": "2026-09-04 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-04 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00403",
+      "EventID": "E00403",
+      "ObservedAt": "2026-09-08 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-08 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00404",
+      "EventID": "E00404",
+      "ObservedAt": "2026-09-11 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-11 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00405",
+      "EventID": "E00405",
+      "ObservedAt": "2026-09-15 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-15 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00406",
+      "EventID": "E00406",
+      "ObservedAt": "2026-09-18 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-18 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00407",
+      "EventID": "E00407",
+      "ObservedAt": "2026-09-22 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-22 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00408",
+      "EventID": "E00408",
+      "ObservedAt": "2026-09-25 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-25 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00501",
+      "EventID": "E00501",
+      "ObservedAt": "2026-09-01 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-01 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00502",
+      "EventID": "E00502",
+      "ObservedAt": "2026-09-04 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-04 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00503",
+      "EventID": "E00503",
+      "ObservedAt": "2026-09-08 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-08 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00504",
+      "EventID": "E00504",
+      "ObservedAt": "2026-09-11 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-11 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00505",
+      "EventID": "E00505",
+      "ObservedAt": "2026-09-15 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-15 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00506",
+      "EventID": "E00506",
+      "ObservedAt": "2026-09-18 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-18 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00507",
+      "EventID": "E00507",
+      "ObservedAt": "2026-09-22 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-22 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00508",
+      "EventID": "E00508",
+      "ObservedAt": "2026-09-25 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-25 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00601",
+      "EventID": "E00601",
+      "ObservedAt": "2026-09-01 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-01 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00602",
+      "EventID": "E00602",
+      "ObservedAt": "2026-09-04 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-04 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00603",
+      "EventID": "E00603",
+      "ObservedAt": "2026-09-08 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-08 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00604",
+      "EventID": "E00604",
+      "ObservedAt": "2026-09-11 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-11 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00605",
+      "EventID": "E00605",
+      "ObservedAt": "2026-09-15 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-15 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00606",
+      "EventID": "E00606",
+      "ObservedAt": "2026-09-18 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-18 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00607",
+      "EventID": "E00607",
+      "ObservedAt": "2026-09-22 10:00",
+      "Fact": "已完成原定沐浴協助。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "本人同意",
+      "RecordedAt": "2026-09-22 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00608",
+      "EventID": "E00608",
+      "ObservedAt": "2026-09-25 10:00",
+      "Fact": "本次原定沐浴協助未完成，原因尚待確認。",
+      "InformationSource": "居服員現場紀錄",
+      "WillStatus": "尚未確認",
+      "RecordedAt": "2026-09-25 12:00",
+      "Synthetic": "1"
+    },
+    {
+      "ObservationID": "O00102B",
+      "EventID": "E00102",
+      "ObservedAt": "2026-09-04 10:10",
+      "Fact": "補充：已向本人說明服務，尊重當日暫不接受的意願。",
+      "InformationSource": "居服員補充紀錄",
+      "WillStatus": "本人暫不接受",
+      "RecordedAt": "2026-09-04 12:30",
+      "Synthetic": "1"
+    }
+  ],
+  "followups": [
+    {
+      "TaskID": "T00101",
+      "CaseID": "C001",
+      "EventID": "E00102",
+      "Action": "向本人確認服務意願與偏好",
+      "OwnerRole": "林督導",
+      "CreatedOn": "2026-09-04",
+      "DueDate": "2026-09-07",
+      "CompletedDate": "2026-09-07",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00102",
+      "CaseID": "C001",
+      "EventID": "E00104",
+      "Action": "核對當日服務執行的具體事實",
+      "OwnerRole": "林督導",
+      "CreatedOn": "2026-09-11",
+      "DueDate": "2026-09-14",
+      "CompletedDate": "2026-09-16",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00103",
+      "CaseID": "C001",
+      "EventID": "E00107",
+      "Action": "聯繫服務者確認缺漏與待補事項",
+      "OwnerRole": "林督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-24",
+      "CompletedDate": "2026-09-24",
+      "Outcome": "09/24已聯繫服務者確認缺漏與待補事項；截至09/28，O00107的具體事實仍待補。",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00104",
+      "CaseID": "C001",
+      "EventID": "E00107",
+      "Action": "回訪前次協調結果",
+      "OwnerRole": "林督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-30",
+      "CompletedDate": "",
+      "Outcome": "尚未到期",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00201",
+      "CaseID": "C002",
+      "EventID": "E00202",
+      "Action": "向本人確認服務意願與偏好",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-04",
+      "DueDate": "2026-09-07",
+      "CompletedDate": "2026-09-07",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00202",
+      "CaseID": "C002",
+      "EventID": "E00204",
+      "Action": "核對當日服務執行的具體事實",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-11",
+      "DueDate": "2026-09-14",
+      "CompletedDate": "2026-09-16",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00203",
+      "CaseID": "C002",
+      "EventID": "E00207",
+      "Action": "補齊紀錄並與本人討論可行安排",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-24",
+      "CompletedDate": "2026-09-24",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00204",
+      "CaseID": "C002",
+      "EventID": "E00207",
+      "Action": "回訪前次協調結果",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-30",
+      "CompletedDate": "",
+      "Outcome": "尚未到期",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00301",
+      "CaseID": "C003",
+      "EventID": "E00302",
+      "Action": "向本人確認服務意願與偏好",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-04",
+      "DueDate": "2026-09-07",
+      "CompletedDate": "2026-09-07",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00302",
+      "CaseID": "C003",
+      "EventID": "E00304",
+      "Action": "核對當日服務執行的具體事實",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-11",
+      "DueDate": "2026-09-14",
+      "CompletedDate": "2026-09-16",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00303",
+      "CaseID": "C003",
+      "EventID": "E00307",
+      "Action": "補齊紀錄並與本人討論可行安排",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-24",
+      "CompletedDate": "2026-09-24",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00304",
+      "CaseID": "C003",
+      "EventID": "E00307",
+      "Action": "回訪前次協調結果",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-30",
+      "CompletedDate": "",
+      "Outcome": "尚未到期",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00401",
+      "CaseID": "C004",
+      "EventID": "E00402",
+      "Action": "向本人確認服務意願與偏好",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-04",
+      "DueDate": "2026-09-07",
+      "CompletedDate": "2026-09-07",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00402",
+      "CaseID": "C004",
+      "EventID": "E00404",
+      "Action": "核對當日服務執行的具體事實",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-11",
+      "DueDate": "2026-09-14",
+      "CompletedDate": "2026-09-16",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00403",
+      "CaseID": "C004",
+      "EventID": "E00407",
+      "Action": "補齊紀錄並與本人討論可行安排",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-24",
+      "CompletedDate": "2026-09-24",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00404",
+      "CaseID": "C004",
+      "EventID": "E00407",
+      "Action": "回訪前次協調結果",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-30",
+      "CompletedDate": "",
+      "Outcome": "尚未到期",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00501",
+      "CaseID": "C005",
+      "EventID": "E00502",
+      "Action": "向本人確認服務意願與偏好",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-04",
+      "DueDate": "2026-09-07",
+      "CompletedDate": "2026-09-07",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00502",
+      "CaseID": "C005",
+      "EventID": "E00504",
+      "Action": "核對當日服務執行的具體事實",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-11",
+      "DueDate": "2026-09-14",
+      "CompletedDate": "2026-09-16",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00503",
+      "CaseID": "C005",
+      "EventID": "E00507",
+      "Action": "補齊紀錄並與本人討論可行安排",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-24",
+      "CompletedDate": "2026-09-24",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00504",
+      "CaseID": "C005",
+      "EventID": "E00507",
+      "Action": "回訪前次協調結果",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-30",
+      "CompletedDate": "",
+      "Outcome": "尚未到期",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00601",
+      "CaseID": "C006",
+      "EventID": "E00602",
+      "Action": "向本人確認服務意願與偏好",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-04",
+      "DueDate": "2026-09-07",
+      "CompletedDate": "2026-09-07",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00602",
+      "CaseID": "C006",
+      "EventID": "E00604",
+      "Action": "核對當日服務執行的具體事實",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-11",
+      "DueDate": "2026-09-14",
+      "CompletedDate": "2026-09-16",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00603",
+      "CaseID": "C006",
+      "EventID": "E00607",
+      "Action": "補齊紀錄並與本人討論可行安排",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-24",
+      "CompletedDate": "2026-09-24",
+      "Outcome": "已完成該項查證或聯繫，尚不等同照顧問題已解決",
+      "Synthetic": "1"
+    },
+    {
+      "TaskID": "T00604",
+      "CaseID": "C006",
+      "EventID": "E00607",
+      "Action": "回訪前次協調結果",
+      "OwnerRole": "示範督導",
+      "CreatedOn": "2026-09-22",
+      "DueDate": "2026-09-30",
+      "CompletedDate": "",
+      "Outcome": "尚未到期",
+      "Synthetic": "1"
+    }
+  ],
+  "expectedSlices": [
+    {
+      "caseId": "ALL",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 39,
+        "denominator": 48,
+        "value": 0.8125
+      },
+      "documentation": {
+        "numerator": 8,
+        "denominator": 9,
+        "value": 0.8888888888888888
+      },
+      "followup": {
+        "numerator": 12,
+        "denominator": 18,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00101",
+        "E00102",
+        "E00103",
+        "E00104",
+        "E00105",
+        "E00106",
+        "E00107",
+        "E00108",
+        "E00201",
+        "E00202",
+        "E00203",
+        "E00204",
+        "E00205",
+        "E00206",
+        "E00207",
+        "E00208",
+        "E00301",
+        "E00302",
+        "E00303",
+        "E00304",
+        "E00305",
+        "E00306",
+        "E00307",
+        "E00308",
+        "E00401",
+        "E00402",
+        "E00403",
+        "E00404",
+        "E00405",
+        "E00406",
+        "E00407",
+        "E00408",
+        "E00501",
+        "E00502",
+        "E00503",
+        "E00504",
+        "E00505",
+        "E00506",
+        "E00507",
+        "E00508",
+        "E00601",
+        "E00602",
+        "E00603",
+        "E00604",
+        "E00605",
+        "E00606",
+        "E00607",
+        "E00608"
+      ],
+      "uncompletedEventIds": [
+        "E00102",
+        "E00104",
+        "E00107",
+        "E00204",
+        "E00302",
+        "E00306",
+        "E00501",
+        "E00507",
+        "E00608"
+      ],
+      "documentedEventIds": [
+        "E00102",
+        "E00104",
+        "E00204",
+        "E00302",
+        "E00306",
+        "E00501",
+        "E00507",
+        "E00608"
+      ],
+      "dueTaskIds": [
+        "T00101",
+        "T00102",
+        "T00103",
+        "T00201",
+        "T00202",
+        "T00203",
+        "T00301",
+        "T00302",
+        "T00303",
+        "T00401",
+        "T00402",
+        "T00403",
+        "T00501",
+        "T00502",
+        "T00503",
+        "T00601",
+        "T00602",
+        "T00603"
+      ],
+      "onTimeTaskIds": [
+        "T00101",
+        "T00103",
+        "T00201",
+        "T00203",
+        "T00301",
+        "T00303",
+        "T00401",
+        "T00403",
+        "T00501",
+        "T00503",
+        "T00601",
+        "T00603"
+      ]
+    },
+    {
+      "caseId": "ALL",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 9,
+        "denominator": 12,
+        "value": 0.75
+      },
+      "documentation": {
+        "numerator": 3,
+        "denominator": 3,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00101",
+        "E00102",
+        "E00201",
+        "E00202",
+        "E00301",
+        "E00302",
+        "E00401",
+        "E00402",
+        "E00501",
+        "E00502",
+        "E00601",
+        "E00602"
+      ],
+      "uncompletedEventIds": [
+        "E00102",
+        "E00302",
+        "E00501"
+      ],
+      "documentedEventIds": [
+        "E00102",
+        "E00302",
+        "E00501"
+      ],
+      "dueTaskIds": [
+        "T00101",
+        "T00201",
+        "T00301",
+        "T00401",
+        "T00501",
+        "T00601"
+      ],
+      "onTimeTaskIds": [
+        "T00101",
+        "T00201",
+        "T00301",
+        "T00401",
+        "T00501",
+        "T00601"
+      ]
+    },
+    {
+      "caseId": "ALL",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 10,
+        "denominator": 12,
+        "value": 0.8333333333333334
+      },
+      "documentation": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 6,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00103",
+        "E00104",
+        "E00203",
+        "E00204",
+        "E00303",
+        "E00304",
+        "E00403",
+        "E00404",
+        "E00503",
+        "E00504",
+        "E00603",
+        "E00604"
+      ],
+      "uncompletedEventIds": [
+        "E00104",
+        "E00204"
+      ],
+      "documentedEventIds": [
+        "E00104",
+        "E00204"
+      ],
+      "dueTaskIds": [
+        "T00102",
+        "T00202",
+        "T00302",
+        "T00402",
+        "T00502",
+        "T00602"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "ALL",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 11,
+        "denominator": 12,
+        "value": 0.9166666666666666
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00105",
+        "E00106",
+        "E00205",
+        "E00206",
+        "E00305",
+        "E00306",
+        "E00405",
+        "E00406",
+        "E00505",
+        "E00506",
+        "E00605",
+        "E00606"
+      ],
+      "uncompletedEventIds": [
+        "E00306"
+      ],
+      "documentedEventIds": [
+        "E00306"
+      ],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "ALL",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 9,
+        "denominator": 12,
+        "value": 0.75
+      },
+      "documentation": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "followup": {
+        "numerator": 6,
+        "denominator": 6,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00107",
+        "E00108",
+        "E00207",
+        "E00208",
+        "E00307",
+        "E00308",
+        "E00407",
+        "E00408",
+        "E00507",
+        "E00508",
+        "E00607",
+        "E00608"
+      ],
+      "uncompletedEventIds": [
+        "E00107",
+        "E00507",
+        "E00608"
+      ],
+      "documentedEventIds": [
+        "E00507",
+        "E00608"
+      ],
+      "dueTaskIds": [
+        "T00103",
+        "T00203",
+        "T00303",
+        "T00403",
+        "T00503",
+        "T00603"
+      ],
+      "onTimeTaskIds": [
+        "T00103",
+        "T00203",
+        "T00303",
+        "T00403",
+        "T00503",
+        "T00603"
+      ]
+    },
+    {
+      "caseId": "C001",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 5,
+        "denominator": 8,
+        "value": 0.625
+      },
+      "documentation": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "followup": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00101",
+        "E00102",
+        "E00103",
+        "E00104",
+        "E00105",
+        "E00106",
+        "E00107",
+        "E00108"
+      ],
+      "uncompletedEventIds": [
+        "E00102",
+        "E00104",
+        "E00107"
+      ],
+      "documentedEventIds": [
+        "E00102",
+        "E00104"
+      ],
+      "dueTaskIds": [
+        "T00101",
+        "T00102",
+        "T00103"
+      ],
+      "onTimeTaskIds": [
+        "T00101",
+        "T00103"
+      ]
+    },
+    {
+      "caseId": "C001",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00101",
+        "E00102"
+      ],
+      "uncompletedEventIds": [
+        "E00102"
+      ],
+      "documentedEventIds": [
+        "E00102"
+      ],
+      "dueTaskIds": [
+        "T00101"
+      ],
+      "onTimeTaskIds": [
+        "T00101"
+      ]
+    },
+    {
+      "caseId": "C001",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00103",
+        "E00104"
+      ],
+      "uncompletedEventIds": [
+        "E00104"
+      ],
+      "documentedEventIds": [
+        "E00104"
+      ],
+      "dueTaskIds": [
+        "T00102"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C001",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00105",
+        "E00106"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C001",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00107",
+        "E00108"
+      ],
+      "uncompletedEventIds": [
+        "E00107"
+      ],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00103"
+      ],
+      "onTimeTaskIds": [
+        "T00103"
+      ]
+    },
+    {
+      "caseId": "C002",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 7,
+        "denominator": 8,
+        "value": 0.875
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00201",
+        "E00202",
+        "E00203",
+        "E00204",
+        "E00205",
+        "E00206",
+        "E00207",
+        "E00208"
+      ],
+      "uncompletedEventIds": [
+        "E00204"
+      ],
+      "documentedEventIds": [
+        "E00204"
+      ],
+      "dueTaskIds": [
+        "T00201",
+        "T00202",
+        "T00203"
+      ],
+      "onTimeTaskIds": [
+        "T00201",
+        "T00203"
+      ]
+    },
+    {
+      "caseId": "C002",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00201",
+        "E00202"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00201"
+      ],
+      "onTimeTaskIds": [
+        "T00201"
+      ]
+    },
+    {
+      "caseId": "C002",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00203",
+        "E00204"
+      ],
+      "uncompletedEventIds": [
+        "E00204"
+      ],
+      "documentedEventIds": [
+        "E00204"
+      ],
+      "dueTaskIds": [
+        "T00202"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C002",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00205",
+        "E00206"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C002",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00207",
+        "E00208"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00203"
+      ],
+      "onTimeTaskIds": [
+        "T00203"
+      ]
+    },
+    {
+      "caseId": "C003",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 6,
+        "denominator": 8,
+        "value": 0.75
+      },
+      "documentation": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00301",
+        "E00302",
+        "E00303",
+        "E00304",
+        "E00305",
+        "E00306",
+        "E00307",
+        "E00308"
+      ],
+      "uncompletedEventIds": [
+        "E00302",
+        "E00306"
+      ],
+      "documentedEventIds": [
+        "E00302",
+        "E00306"
+      ],
+      "dueTaskIds": [
+        "T00301",
+        "T00302",
+        "T00303"
+      ],
+      "onTimeTaskIds": [
+        "T00301",
+        "T00303"
+      ]
+    },
+    {
+      "caseId": "C003",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00301",
+        "E00302"
+      ],
+      "uncompletedEventIds": [
+        "E00302"
+      ],
+      "documentedEventIds": [
+        "E00302"
+      ],
+      "dueTaskIds": [
+        "T00301"
+      ],
+      "onTimeTaskIds": [
+        "T00301"
+      ]
+    },
+    {
+      "caseId": "C003",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00303",
+        "E00304"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00302"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C003",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00305",
+        "E00306"
+      ],
+      "uncompletedEventIds": [
+        "E00306"
+      ],
+      "documentedEventIds": [
+        "E00306"
+      ],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C003",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00307",
+        "E00308"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00303"
+      ],
+      "onTimeTaskIds": [
+        "T00303"
+      ]
+    },
+    {
+      "caseId": "C004",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 8,
+        "denominator": 8,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00401",
+        "E00402",
+        "E00403",
+        "E00404",
+        "E00405",
+        "E00406",
+        "E00407",
+        "E00408"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00401",
+        "T00402",
+        "T00403"
+      ],
+      "onTimeTaskIds": [
+        "T00401",
+        "T00403"
+      ]
+    },
+    {
+      "caseId": "C004",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00401",
+        "E00402"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00401"
+      ],
+      "onTimeTaskIds": [
+        "T00401"
+      ]
+    },
+    {
+      "caseId": "C004",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00403",
+        "E00404"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00402"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C004",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00405",
+        "E00406"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C004",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00407",
+        "E00408"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00403"
+      ],
+      "onTimeTaskIds": [
+        "T00403"
+      ]
+    },
+    {
+      "caseId": "C005",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 6,
+        "denominator": 8,
+        "value": 0.75
+      },
+      "documentation": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00501",
+        "E00502",
+        "E00503",
+        "E00504",
+        "E00505",
+        "E00506",
+        "E00507",
+        "E00508"
+      ],
+      "uncompletedEventIds": [
+        "E00501",
+        "E00507"
+      ],
+      "documentedEventIds": [
+        "E00501",
+        "E00507"
+      ],
+      "dueTaskIds": [
+        "T00501",
+        "T00502",
+        "T00503"
+      ],
+      "onTimeTaskIds": [
+        "T00501",
+        "T00503"
+      ]
+    },
+    {
+      "caseId": "C005",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00501",
+        "E00502"
+      ],
+      "uncompletedEventIds": [
+        "E00501"
+      ],
+      "documentedEventIds": [
+        "E00501"
+      ],
+      "dueTaskIds": [
+        "T00501"
+      ],
+      "onTimeTaskIds": [
+        "T00501"
+      ]
+    },
+    {
+      "caseId": "C005",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00503",
+        "E00504"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00502"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C005",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00505",
+        "E00506"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C005",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00507",
+        "E00508"
+      ],
+      "uncompletedEventIds": [
+        "E00507"
+      ],
+      "documentedEventIds": [
+        "E00507"
+      ],
+      "dueTaskIds": [
+        "T00503"
+      ],
+      "onTimeTaskIds": [
+        "T00503"
+      ]
+    },
+    {
+      "caseId": "C006",
+      "weekId": "ALL",
+      "completion": {
+        "numerator": 7,
+        "denominator": 8,
+        "value": 0.875
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 2,
+        "denominator": 3,
+        "value": 0.6666666666666666
+      },
+      "eventIds": [
+        "E00601",
+        "E00602",
+        "E00603",
+        "E00604",
+        "E00605",
+        "E00606",
+        "E00607",
+        "E00608"
+      ],
+      "uncompletedEventIds": [
+        "E00608"
+      ],
+      "documentedEventIds": [
+        "E00608"
+      ],
+      "dueTaskIds": [
+        "T00601",
+        "T00602",
+        "T00603"
+      ],
+      "onTimeTaskIds": [
+        "T00601",
+        "T00603"
+      ]
+    },
+    {
+      "caseId": "C006",
+      "weekId": "W1",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00601",
+        "E00602"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00601"
+      ],
+      "onTimeTaskIds": [
+        "T00601"
+      ]
+    },
+    {
+      "caseId": "C006",
+      "weekId": "W2",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "eventIds": [
+        "E00603",
+        "E00604"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [
+        "T00602"
+      ],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C006",
+      "weekId": "W3",
+      "completion": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "documentation": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "followup": {
+        "numerator": 0,
+        "denominator": 0,
+        "value": null
+      },
+      "eventIds": [
+        "E00605",
+        "E00606"
+      ],
+      "uncompletedEventIds": [],
+      "documentedEventIds": [],
+      "dueTaskIds": [],
+      "onTimeTaskIds": []
+    },
+    {
+      "caseId": "C006",
+      "weekId": "W4",
+      "completion": {
+        "numerator": 1,
+        "denominator": 2,
+        "value": 0.5
+      },
+      "documentation": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "followup": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "eventIds": [
+        "E00607",
+        "E00608"
+      ],
+      "uncompletedEventIds": [
+        "E00608"
+      ],
+      "documentedEventIds": [
+        "E00608"
+      ],
+      "dueTaskIds": [
+        "T00603"
+      ],
+      "onTimeTaskIds": [
+        "T00603"
+      ]
+    }
+  ]
+}
