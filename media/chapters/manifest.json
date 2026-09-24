@@ -7,9 +7,9 @@
       "file": "chapter-1.mp4",
       "status": "ready",
       "durationSeconds": 8.0,
-      "sha256": "d2d3fdb887f3899969e156040c07439bdc0eae7450af37b9c86dc0f0845d68fc",
+      "sha256": "74d780ca3be76265838c1ba9f7bce9031b2e567899989da2a2634096e9df2d22",
       "source": "Google Flow",
-      "audioDescription": "後製配樂：JRPG Piano（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+      "audioDescription": "本機 Windows 繁中合成旁白與既有 CC0 配樂混音；Flow 原音軌未使用。影片已燒錄繁中字幕，另附 WebVTT/SRT。"
     },
     {
       "id": 2,
@@ -17,9 +17,9 @@
       "file": "chapter-2.mp4",
       "status": "ready",
       "durationSeconds": 8.0,
-      "sha256": "1a1c60caefb25e96b8dd24029b51d02905fecc8540b12b14a118b19da379cf65",
+      "sha256": "71a920b5be88a3a153516d5b105034f337435644e7a481ee1deb477b9a71ed37",
       "source": "Google Flow",
-      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+      "audioDescription": "本機 Windows 繁中合成旁白與既有 CC0 配樂混音；Flow 原音軌未使用。影片已燒錄繁中字幕，另附 WebVTT/SRT。"
     },
     {
       "id": 3,
@@ -27,9 +27,9 @@
       "file": "chapter-3.mp4",
       "status": "ready",
       "durationSeconds": 8.0,
-      "sha256": "6598a930b0988778634706aa7351b359f0a1ae7a56495d424ed555fa495e381e",
+      "sha256": "a34e1f51190e8839549b6364ad77659ff75b54839006e3ea0f766a2ac7aa401a",
       "source": "Google Flow",
-      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+      "audioDescription": "本機 Windows 繁中合成旁白與既有 CC0 配樂混音；Flow 原音軌未使用。影片已燒錄繁中字幕，另附 WebVTT/SRT。"
     },
     {
       "id": 4,
@@ -37,9 +37,9 @@
       "file": "chapter-4.mp4",
       "status": "ready",
       "durationSeconds": 8.0,
-      "sha256": "c9f4d5b12566c3305e252b46bc36d9ebb7f94dc0d1dd13812b3b1340ce19f20d",
+      "sha256": "e46d8b59ada5d093b7e90302830002b5f65fda007e1ff6c41c0bb37d5b5f0892",
       "source": "Google Flow",
-      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+      "audioDescription": "本機 Windows 繁中合成旁白與既有 CC0 配樂混音；Flow 原音軌未使用。影片已燒錄繁中字幕，另附 WebVTT/SRT。"
     },
     {
       "id": 5,
@@ -47,9 +47,9 @@
       "file": "chapter-5.mp4",
       "status": "ready",
       "durationSeconds": 8.0,
-      "sha256": "b4b005a6999b5747dbf9e54bbd4651e45f8d4276f2af4db923b909602cf03c57",
+      "sha256": "c0bab0034db30d5f3a1409628fab36de1ee4e5374a2a492f386369d003ea5a56",
       "source": "Google Flow",
-      "audioDescription": "後製配樂：Exploration Theme（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+      "audioDescription": "本機 Windows 繁中合成旁白與既有 CC0 配樂混音；Flow 原音軌未使用。影片已燒錄繁中字幕，另附 WebVTT/SRT。"
     },
     {
       "id": 6,
@@ -57,9 +57,9 @@
       "file": "chapter-6.mp4",
       "status": "ready",
       "durationSeconds": 8.0,
-      "sha256": "3c480f09a2352145010fd2bc97112b96d2b475718194ce30eac6ff4e34b8ec86",
+      "sha256": "6ac062370512c8549dc588bf2b6e3292191e8feb27683e344353a0bd6dff1649",
       "source": "Google Flow",
-      "audioDescription": "後製配樂：JRPG Piano（既有CC0音樂，降6dB，首尾各0.5秒淡入淡出）；Flow原音軌完全未使用。"
+      "audioDescription": "本機 Windows 繁中合成旁白與既有 CC0 配樂混音；Flow 原音軌未使用。影片已燒錄繁中字幕，另附 WebVTT/SRT。"
     }
   ]
 }
