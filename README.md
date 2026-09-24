@@ -2,7 +2,9 @@
 
 這是「資料分析在督導實務的運用」課程的互動展示版，包含三個 3D 場景、四位虛擬人物、角色走動、六道線索與共同判斷流程。
 
-互動展示入口：https://johnnychao.github.io/homecare-data-quest-2026/`r`n`r`n## 開始展示
+互動展示入口：https://johnnychao.github.io/homecare-data-quest-2026/
+
+## 開始展示
 
 開啟展示入口後，按「開始今天的任務」。可用滑鼠點選線索，也可選取人物後點地面移動；收集線索後按「共同決策」。
 
